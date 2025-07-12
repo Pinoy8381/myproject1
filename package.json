@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Build The App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   },
   "keywords": [],
   "author": "",
